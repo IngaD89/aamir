@@ -32,3 +32,6 @@ height= 400px;
     height: 300px;
     border-radius: 50%;
 }
+#barra {
+    display: inline-flex;
+}
