@@ -1,9 +1,5 @@
 body{
-Background-color: lightblue;
-height= 400px;
-    display=flex;
-    font-family: Arial Sans-serif;
-
+    background-color: lightblue;
 }
 .texto {
     font-style: italic;
@@ -11,24 +7,27 @@ height= 400px;
     font-size: 20px;
 
 }
-.imgmarta {
-    width: 300px;
-    height: 300px;
+.foto {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    background-color: red;
     border-radius: 50%;
+    margin: 60px;
+}
+.foto img {
+    max-width: none;
+    min-width: 250px;
+    height: 250px;
+
 
 }
-.imginga {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+.fotosarriba {
+    display: flex;
+    justify-content: space-evenly;
 }
-.imgranju {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-}
-.imgana {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+
+
+#barra {
+    display: inline-flex;
 }
