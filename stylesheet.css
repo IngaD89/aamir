@@ -1,7 +1,7 @@
 body{
     background-color: lightblue;
     margin: auto;
-    font-family: "Arial", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter",
+    font-family: "Century Gothic" "Arial", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter",
 }
 .header {
     background: #7aa1d2;
@@ -15,6 +15,7 @@ body{
 .logo {
     width: 90px;
     height: 50px;
+
 }
 .barra {
     margin: auto;
@@ -26,20 +27,43 @@ body{
     color: #FFF;
     text-decoration: none;
     padding: 21px 5px;
+    font-size: 20px;
+
+}
+.puntero {
+   font-family: "Century Gothic";
+
+}
+.barra a:hover{
+    background-color: black;
+    color: red;
+
 }
 .boton {
     font-size: 15px;
     list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 
 }
 
 .texto {
-    font-style: italic;
+    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     padding: 25px;
 
 }
+ .texto h3 {
+     font-weight: normal;
+     font-style: normal;
+     font-family: "Century Gothic";
+
+
+ }
+
 .foto {
     width: 250px;
     height: 250px;
@@ -47,20 +71,19 @@ body{
     background-color: red;
     border-radius: 50%;
     margin:0 30px;
+    display: flex;
 }
 .foto img {
     max-width: none;
     min-width: 250px;
     height: 250px;
-
+    flex-wrap: wrap;
 
 }
-.fotosarriba {
-    display: flex;
-    justify-content: space-evenly;
+
+.equipo {
+
+     display: flex;
+    flex-wrap: wrap;
 }
 
-
-#barra {
-    display: inline-flex;
-}
