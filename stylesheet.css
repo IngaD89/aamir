@@ -16,22 +16,20 @@ body{
     height: 50px;
 }
 .barra {
-    margin: auto;
     display: flex;
     justify-content: flex-end;
 }
-.barra a {
+
+.puntero {
+    font-family: "Century Gothic";
     color: #FFF;
     text-decoration: none;
     padding: 21px 5px;
     font-size: 20px;
 }
-.puntero {
-   font-family: "Century Gothic";
-}
-.barra a:hover{
-    background-color: black;
-    color: red;
+.puntero:hover {
+    background-color: white;
+    color: black;
 }
 .boton {
     font-size: 15px;
@@ -46,7 +44,7 @@ body{
     font-size: 20px;
     padding: 25px;
 }
- .texto h3 {
+ .intro {
      font-weight: normal;
      font-style: normal;
      font-family: "Century Gothic";
@@ -55,7 +53,7 @@ body{
     width: 250px;
     height: 250px;
     overflow: hidden;
-    background-color: red;
+
     border-radius: 50%;
     margin:0 30px;
     display: flex;
@@ -73,11 +71,13 @@ body{
 }
 .miembro {
     padding: 0 30px;
-
-
 }
 .gitlogo {
     width: 30px;
     height: 30px;
-
+}
+.logolink1 {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 2px;
 }
