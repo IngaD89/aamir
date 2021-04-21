@@ -1,0 +1,50 @@
+body{
+    background-color: lightblue;
+    margin: auto;
+    font-family: "Century Gothic" "Arial", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter",
+}
+.header {
+    background: #7aa1d2;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+.logo {
+    width: 90px;
+    height: 50px;
+}
+.barra {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.puntero {
+    font-family: "Century Gothic";
+    color: #FFF;
+    text-decoration: none;
+    padding: 21px 5px;
+    font-size: 20px;
+}
+.puntero:hover {
+    background-color: white;
+    color: black;
+}
+.boton {
+    font-size: 15px;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.intro {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 25px;
+}
+.banner {
+    width: 1430px;
+    height: 350px;
+}
