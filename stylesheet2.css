@@ -45,6 +45,11 @@ body{
     padding: 25px;
 }
 .banner {
-    width: 1430px;
-    height: 350px;
+   width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    object-fit: revert;
+
 }
