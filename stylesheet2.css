@@ -53,3 +53,28 @@ body{
     object-fit: revert;
 
 }
+.imgservicios {
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+    margin:0 30px;
+    display: flex;
+    float: left;
+
+}
+.servicios {
+    font-family: "Century Gothic";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ul {
+    list-style: none;
+}
+.subservicios {
+    border: 5px solid darkblue;
+    margin: 15px 60px;
+    padding: 10px;
+
+
+}
