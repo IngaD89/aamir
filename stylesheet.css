@@ -64,6 +64,12 @@ body{
     height: 250px;
     flex-wrap: wrap;
 }
+@media (min-width: 100px) {
+    .foto.img {
+        border-radius: 30px;
+    }
+
+}
 .equipo {
     display: flex;
     flex-wrap: wrap;
