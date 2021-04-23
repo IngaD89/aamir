@@ -1,7 +1,7 @@
 body{
     background-color: lightblue;
     margin: auto;
-    font-family: "Century Gothic" "Arial", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter",
+    font-family: "Century Gothic", "Arial", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter";
 }
 .header {
     background: #7aa1d2;
@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 30px;
+    padding: 0 30px;
 }
 .logo {
     width: 90px;
