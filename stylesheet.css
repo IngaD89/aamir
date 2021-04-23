@@ -53,9 +53,8 @@ body{
     width: 250px;
     height: 250px;
     overflow: hidden;
-
     border-radius: 50%;
-    margin:0 30px;
+    margin: 0 30px;
     display: flex;
 }
 .foto img {
@@ -64,12 +63,13 @@ body{
     height: 250px;
     flex-wrap: wrap;
 }
-@media (min-width: 100px) {
-    .foto.img {
-        border-radius: 30px;
+@media screen and (max-width: 414px) {
+    .foto {
+        border-radius: 15px;
     }
-
 }
+
+
 .equipo {
     display: flex;
     flex-wrap: wrap;
